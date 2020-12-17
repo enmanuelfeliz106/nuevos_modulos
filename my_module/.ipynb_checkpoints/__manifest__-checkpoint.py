@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "my_module_JC",
+    'name': "my_module_JC_Fusion",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Este es un módulo de prueba para JC Fusion""",
 
     'description': """
-        Long description of module's purpose
+        JC Fusion - Módulo de prueba
     """,
 
-    'author': "My Company",
+    'author': "Enmanuel Feliz E",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -24,7 +23,7 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
